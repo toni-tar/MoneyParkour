@@ -6,7 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     private Transform player;
     private Vector3 direction;
-    private float speed = 15;
+    private float speed = 10;
     private float attackRange = 1f;
     private float distanceToPlayer;
 

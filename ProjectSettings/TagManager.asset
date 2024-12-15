@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Island
   - Coin
+  - Enemy
+  - mini island
+  - Chill cloud
   layers:
   - Default
   - TransparentFX
