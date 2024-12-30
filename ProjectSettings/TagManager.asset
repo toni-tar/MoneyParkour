@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - mini island
   - Chill cloud
+  - Lava
+  - Portal
   layers:
   - Default
   - TransparentFX
