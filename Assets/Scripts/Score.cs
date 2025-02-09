@@ -6,6 +6,7 @@ public class Score : MonoBehaviour
 {
     private int count;
     public TextMeshProUGUI score;
+    public AudioSource audio;
     void Start()
     {
         count = 0;
@@ -15,6 +16,7 @@ public class Score : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
+            audio.Play();
             count++;
             score.text = "Score: " + count.ToString();
             Destroy(collision.gameObject);
